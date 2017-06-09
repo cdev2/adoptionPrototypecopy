@@ -1,0 +1,27 @@
+
+<!--<div class="wrap">
+            <div class="banner">
+              		<img src="img/logo.jpg" style="width:100px; height:100px; padding: 0px 0px 40px 50px">
+              		<img src="img/cat.jpg" style="width:580px; height: 180px; padding-//left:50px;">
+            </div> banner close-->
+            <nav>
+              	<ul>
+              	  <li> <a href="about.html">ABOUT US</a></li>
+              	 <li> <a ui-sref="adoptUs">ADOPT US</a></li>
+              	 <li> <a href="contact.html">CONTACT US</a></li>
+
+              	 
+              			
+              	</ul>
+            </nav>
+
+
+
+<div ng-repeat="pic in gallery"> 
+    <ul>
+        
+        <li><h1>Meet {{pic.name}}, at age {{pic.age}} he is very playful and friendly</h1></li>
+    
+        </br> <li><img ng-src="{{pic.image}}"></li>
+    </ul>
+</div>

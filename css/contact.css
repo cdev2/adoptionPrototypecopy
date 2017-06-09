@@ -1,0 +1,58 @@
+html { 
+  background: url(../img/cat_PNG1631.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.testClass{/*
+	 	 		/*background-image: url(http://pngimg.com/upload/cat_PNG1631.png);*/
+	 	 		/*width: 100vw;
+	 	 		height: 100vh;
+	 	 		background-image: url( ../img/cat_PNG1631.jpeg );
+	 	 		/*background-color: orange;*/
+	 	 		/*background-image: url(http://exmoorpet.com/wp-content/uploads/2012/08/cat.png);*/
+	 	 		/*background-repeat: no-repeat;
+	 	 		
+	 	 	}*/
+
+nav{
+	text-align: left;
+}
+
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul li{
+	font-size:12pt;
+}
+.submit{
+	background:rgba(255,185,0,.5);
+	border:1px solid black;
+	width:60px;
+	height:20px;
+	font-size:12pt;
+}
+
+.back{
+	background:rgba(250,130,0,.5);
+	border:1px solid black;
+	width:45px;
+	height:20px;
+	font-size:12pt;
+
+}
+
+.wrap{
+	background:rgba(255,185,0,.5);
+	width:400px;
+	height:300px;
+	padding:20px;
+	font-size:20pt;
+
+
+
+}
